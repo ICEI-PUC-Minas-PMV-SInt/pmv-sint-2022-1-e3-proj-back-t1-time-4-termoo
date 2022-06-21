@@ -1,23 +1,22 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`SISTEMAS PARA INTERNET`
 
-`DISCIPLINA`
+`Eixo 3 - Projeto: Desenvolvimento Web Back-End`
 
-`SEMESTRE`
+`3º SEMESTRE`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Bruno Araujo Souto
+* Flávio dos Santos Pires Júnior
+* Rodolfo Tadeu Pacheco Ferreira
 
 ## Orientador
 
-* Nome completo do professor 1
+* Will Ricardo Dos Santos Machado
 
 ## Instruções de utilização
 
