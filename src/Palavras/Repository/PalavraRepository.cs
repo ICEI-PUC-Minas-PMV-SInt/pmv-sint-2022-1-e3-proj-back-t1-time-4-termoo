@@ -1,4 +1,5 @@
-﻿using Palavras.AppDbContext;
+﻿using MongoDB.Driver;
+using Palavras.AppDbContext;
 using Palavras.Models;
 
 namespace Palavras.Repository
@@ -12,7 +13,7 @@ namespace Palavras.Repository
         {
             try
             {
-                await db.
+                await db.Palavra.InsertOneAsync(palavraModel);
             }
             catch (Exception)
             {
@@ -21,9 +22,44 @@ namespace Palavras.Repository
             }
 
         }
-        public Task<PalavraModel> GetPalavra()
+        public async Task<PalavraModel> GetPalavraById(string id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                FilterDefinition<PalavraModel> filter = Builders<PalavraModel>.Filter.Eq("Id", id);
+                return await db.Palavra.Find(filter).FirstOrDefaultAsync();
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
+        public async Task<PalavraModel> GetPalavra()
+        {
+            Random rnd = new Random();
+            int num = rnd.Next(1, 10);
+            try
+            {
+                FilterDefinition<PalavraModel> filter = Builders<PalavraModel>.Filter.Eq("Id", num);
+                return await db.Palavra.Find(filter).FirstOrDefaultAsync();
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
+        public async Task<IEnumerable<PalavraModel>> GetPalavras()
+        {
+            try
+            {
+                return await db.Palavra.Find(_ => true).ToListAsync();
+            }
+            catch
+            {
+                throw;
+            }
         }
     }
 }

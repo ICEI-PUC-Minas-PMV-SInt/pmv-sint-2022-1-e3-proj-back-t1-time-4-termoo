@@ -11,7 +11,7 @@ namespace Palavras.AppDbContext
             var client = new MongoClient("mongodb+srv://sarathlal:<password>@sarathlal-6k9bj.azure.mongodb.net?retryWrites=true");
             _mongoDb = client.GetDatabase("SarathDB");
         }
-        public IMongoCollection<PalavraModel> Employee
+        public IMongoCollection<PalavraModel> Palavra
         {
             get
             {
@@ -19,5 +19,4 @@ namespace Palavras.AppDbContext
             }
         }
     }
-}
 }

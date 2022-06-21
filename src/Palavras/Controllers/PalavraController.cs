@@ -1,16 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Palavras.Models;
+using Palavras.Repository;
 using System.Diagnostics;
 
 namespace Palavras.Controllers
 {
     public class PalavraController : Controller
     {
-        private readonly ILogger<PalavraController> _logger;
+        private readonly IPalavraRepository _palavraRepository;
 
-        public PalavraController(ILogger<PalavraController> logger)
+        public PalavraController(PalavraRepository palavraRepository)
         {
-            _logger = logger;
+           _palavraRepository = palavraRepository;
         }
 
         public IActionResult Index()

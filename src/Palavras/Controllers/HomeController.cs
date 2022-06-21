@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Palavras.Models;
+using Palavras.Repository;
 using System.Diagnostics;
 
 namespace Palavras.Controllers
@@ -9,7 +10,7 @@ namespace Palavras.Controllers
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
-        {
+        {   
             _logger = logger;
         }
 
