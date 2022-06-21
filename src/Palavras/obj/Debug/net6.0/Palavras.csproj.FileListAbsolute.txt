@@ -73,3 +73,8 @@ C:\PalavraPucMVC\pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo\src\Palavras\obj\
 C:\PalavraPucMVC\pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo\src\Palavras\obj\Debug\net6.0\Palavras.pdb
 C:\PalavraPucMVC\pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo\src\Palavras\obj\Debug\net6.0\Palavras.genruntimeconfig.cache
 C:\PalavraPucMVC\pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo\src\Palavras\obj\Debug\net6.0\ref\Palavras.dll
+C:\PalavraPucMVC\pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo\src\Palavras\obj\Debug\net6.0\Palavras.MvcApplicationPartsAssemblyInfo.cs
+C:\PalavraPucMVC\pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo\src\Palavras\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\PalavraPucMVC\pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo\src\Palavras\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\PalavraPucMVC\pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo\src\Palavras\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\PalavraPucMVC\pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo\src\Palavras\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
