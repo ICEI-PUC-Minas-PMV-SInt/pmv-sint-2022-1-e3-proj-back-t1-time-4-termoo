@@ -8,37 +8,37 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Palavras
 build_property.RootNamespace = Palavras
-build_property.ProjectDir = C:\PalavraPucMVC\pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo\src\Palavras\
+build_property.ProjectDir = C:\Users\Rodolfo\Source\Repos\pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo\src\Palavras\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\PalavraPucMVC\pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo\src\Palavras
+build_property.MSBuildProjectDirectory = C:\Users\Rodolfo\Source\Repos\pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo\src\Palavras
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/PalavraPucMVC/pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo/src/Palavras/Views/Home/Index.cshtml]
+[C:/Users/Rodolfo/Source/Repos/pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo/src/Palavras/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PalavraPucMVC/pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo/src/Palavras/Views/Home/Privacy.cshtml]
+[C:/Users/Rodolfo/Source/Repos/pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo/src/Palavras/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PalavraPucMVC/pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo/src/Palavras/Views/Shared/Error.cshtml]
+[C:/Users/Rodolfo/Source/Repos/pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo/src/Palavras/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PalavraPucMVC/pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo/src/Palavras/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Rodolfo/Source/Repos/pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo/src/Palavras/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PalavraPucMVC/pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo/src/Palavras/Views/_ViewImports.cshtml]
+[C:/Users/Rodolfo/Source/Repos/pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo/src/Palavras/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PalavraPucMVC/pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo/src/Palavras/Views/_ViewStart.cshtml]
+[C:/Users/Rodolfo/Source/Repos/pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo/src/Palavras/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PalavraPucMVC/pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo/src/Palavras/Views/Shared/_Layout.cshtml]
+[C:/Users/Rodolfo/Source/Repos/pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo/src/Palavras/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-9yf8alamai

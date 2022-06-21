@@ -2,7 +2,19 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@for (int i = 0; i < 5; i++) {
+<div class="row col-md-3 p-3">
+    <input class="form-control col" id="ex1" maxlength="1" type="text">
+    <input class="form-control col" id="ex1" maxlength="1" type="text">
+    <input class="form-control col" id="ex1" maxlength="1" type="text">
+    <input class="form-control col" id="ex1" maxlength="1" type="text">
+    <input class="form-control col" id="ex1" maxlength="1" type="text">
 </div>
+}
+<button type="button" id="button" class="btn btn-success">Enviar</button>
+
+<style>
+    #button {
+        padding: 10px, 50px;
+    }
+</style>
