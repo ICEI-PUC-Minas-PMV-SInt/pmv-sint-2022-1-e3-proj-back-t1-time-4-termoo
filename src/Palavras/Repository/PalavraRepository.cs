@@ -61,5 +61,19 @@ namespace Palavras.Repository
                 throw;
             }
         }
+        public async Task PostPalavra(string palavra)
+        {
+            var palavraModel = new PalavraModel();
+            palavraModel.Palavra = palavra;
+
+            try
+            {
+                await db.Palavra.InsertOneAsync(palavraModel);
+            }
+            catch
+            {
+                throw;
+            }
+        }
     }
 }

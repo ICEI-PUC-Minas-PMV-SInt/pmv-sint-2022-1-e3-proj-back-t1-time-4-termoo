@@ -2,6 +2,7 @@
 using Palavras.Models;
 using Palavras.Repository;
 using System.Diagnostics;
+using System.Net;
 
 namespace Palavras.Controllers
 {
@@ -23,6 +24,19 @@ namespace Palavras.Controllers
         public ActionResult RetornaPalavra()
         {
             return Ok();
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> CriarPalavra(string palavra) 
+        {
+            if (palavra == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+
+            await _palavraRepository.PostPalavra(palavra);
+
+            return View("Index");
         }
     }
 }
