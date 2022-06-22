@@ -1,10 +1,11 @@
-﻿using MongoDB.Driver;
+﻿using Microsoft.Extensions.Options;
+using MongoDB.Driver;
 using Palavras.AppDbContext;
 using Palavras.Models;
 
 namespace Palavras.Repository
 {
-    public class PalavraRepository : IPalavraRepository
+    public class PalavraService
     {
 
         MongoDbContext db = new MongoDbContext();

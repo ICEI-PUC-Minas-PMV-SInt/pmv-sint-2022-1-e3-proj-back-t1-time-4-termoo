@@ -7,7 +7,9 @@ namespace Palavras.Models
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
-        public string Palavra { get; set; }
+        public string? Id { get; set; }
+
+        [BsonElement("Palavra")]
+        public string Palavra { get; set; } = null!;
     }
 }

@@ -1,4 +1,4 @@
-using Microsoft.OpenApi.Models;
+using Palavras.Models;
 using Palavras.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,10 +8,11 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddMvc();
 builder.Services.AddControllers();
-builder.Services.AddScoped<IPalavraRepository, PalavraRepository>();
+builder.Services.AddSingleton<PalavraService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-//builder.Services.AddDbContext<Palavras.Models.PalavraModel>(opt => opt.("item"));
+builder.Services.Configure<PalavraDatabaseSettings>(
+    builder.Configuration.GetSection("PalavrasDatabase"));
 
 var app = builder.Build();
 
