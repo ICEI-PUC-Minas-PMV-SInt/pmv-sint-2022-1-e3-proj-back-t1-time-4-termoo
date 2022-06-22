@@ -8,10 +8,10 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddMvc();
 builder.Services.AddControllers();
-builder.Services.AddTransient<IPalavraRepository, PalavraRepository>();
+builder.Services.AddScoped<IPalavraRepository, PalavraRepository>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+//builder.Services.AddDbContext<Palavras.Models.PalavraModel>(opt => opt.("item"));
 
 var app = builder.Build();
 

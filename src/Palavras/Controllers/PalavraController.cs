@@ -9,7 +9,7 @@ namespace Palavras.Controllers
     {
         private readonly IPalavraRepository _palavraRepository;
 
-        public PalavraController(PalavraRepository palavraRepository)
+        public PalavraController(IPalavraRepository palavraRepository)
         {
            _palavraRepository = palavraRepository;
         }

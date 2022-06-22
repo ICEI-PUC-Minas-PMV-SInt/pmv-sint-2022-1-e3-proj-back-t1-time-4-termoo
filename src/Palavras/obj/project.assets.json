@@ -1449,19 +1449,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rodolfo\\.nuget\\packages\\": {}
+    "C:\\Users\\Bruno A. Souto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rodolfo\\Source\\Repos\\pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo\\src\\Palavras\\Palavras.csproj",
+      "projectUniqueName": "C:\\Users\\Bruno A. Souto\\Documents\\pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo\\src\\Palavras\\Palavras.csproj",
       "projectName": "Palavras",
-      "projectPath": "C:\\Users\\Rodolfo\\Source\\Repos\\pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo\\src\\Palavras\\Palavras.csproj",
-      "packagesPath": "C:\\Users\\Rodolfo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rodolfo\\Source\\Repos\\pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo\\src\\Palavras\\obj\\",
+      "projectPath": "C:\\Users\\Bruno A. Souto\\Documents\\pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo\\src\\Palavras\\Palavras.csproj",
+      "packagesPath": "C:\\Users\\Bruno A. Souto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bruno A. Souto\\Documents\\pmv-sint-2022-1-e3-proj-back-t1-time-4-termoo\\src\\Palavras\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Rodolfo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bruno A. Souto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1530,7 +1530,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
